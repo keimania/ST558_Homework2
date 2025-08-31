@@ -118,6 +118,7 @@ bp_df_2 <- data.frame(
   post_bp = post_bp_2,
   diff_bp = diff_bp_2
 )
+bp_df_2$bp_lower_120 <- bp_df_2$post_bp < 120
 bp_df_2
 ```
 
